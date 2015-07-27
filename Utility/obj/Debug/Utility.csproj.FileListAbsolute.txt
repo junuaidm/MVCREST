@@ -1,0 +1,6 @@
+c:\users\junaid\documents\visual studio 2013\Projects\MVCE1Demo\Utility\bin\Debug\Utility.dll.config
+c:\users\junaid\documents\visual studio 2013\Projects\MVCE1Demo\Utility\bin\Debug\Utility.dll
+c:\users\junaid\documents\visual studio 2013\Projects\MVCE1Demo\Utility\bin\Debug\Utility.pdb
+c:\users\junaid\documents\visual studio 2013\Projects\MVCE1Demo\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+c:\users\junaid\documents\visual studio 2013\Projects\MVCE1Demo\Utility\obj\Debug\Utility.dll
+c:\users\junaid\documents\visual studio 2013\Projects\MVCE1Demo\Utility\obj\Debug\Utility.pdb
