@@ -33,9 +33,9 @@ namespace WEBAPI.Controllers
         #endregion
 
         // GET api/product
-        [Route("productid/{id?}")]
-        [Route("particularproduct/{id?}")]
-        [Route("myproduct/{id:range(1, 3)}")]
+        //[Route("productid/{id?}")]
+        //[Route("particularproduct/{id?}")]
+        //[Route("myproduct/{id:range(1, 3)}")]
         public HttpResponseMessage Get()
         {
             var products = _productServices.GetAllProducts();
