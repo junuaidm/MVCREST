@@ -17,7 +17,10 @@ namespace MVCE1Demo.Helper
 
         public ProductDataRestClient()
         {
-            _client = new RestClient(_url);
+            _client = new RestClient(_url)
+            {
+                Authenticator = new HttpBasicAuthenticator("api", "api")
+            };
         }
 
         public IEnumerable<ProductModel> GetAll()
