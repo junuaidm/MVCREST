@@ -7,6 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Results;
+using WEBAPI.Filters;
 
 namespace WEBAPI.Controllers
 {
@@ -31,7 +32,7 @@ namespace WEBAPI.Controllers
             _productServices = productServices;
         }
         #endregion
-
+        [ApiAuthenticationFilter(true)]
         // GET api/product
         //[Route("productid/{id?}")]
         //[Route("particularproduct/{id?}")]

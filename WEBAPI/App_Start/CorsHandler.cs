@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace WEBAPI.App_Start
+namespace WEBAPI
 {
     public class CorsHandler : DelegatingHandler
     {

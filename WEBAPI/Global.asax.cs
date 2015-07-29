@@ -10,7 +10,7 @@ using System.Web.Http;
 using Newtonsoft.Json;
 using System.Web.Optimization;
 using System.Net.Http;
-using WEBAPI.App_Start;
+using WEBAPI;
 namespace WEBAPI
 {
     public class Global : HttpApplication
@@ -21,6 +21,7 @@ namespace WEBAPI
             AreaRegistration.RegisterAllAreas();
             UnityConfig.RegisterComponents(); //initi-----------------------------------dependency injection
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
 
